@@ -1,0 +1,140 @@
+body{
+    background-color: #fafbea;
+    font-family: sans-serif;
+  }
+   
+  .navbar {
+    background-color: #9bbc88;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 2000px;
+    display: flex;
+  }
+   
+  .logo {
+  width: 50px;
+  height: 50px;
+  margin-left: 75px;
+  }
+   
+  .nav-links {
+    display: flex;
+    gap: 48px;
+  }
+   
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    padding-right: 20px;
+  }
+.container1{
+  display: flex;
+  padding: 0 20px;
+  gap: 95px;
+}
+  .sidebar{
+    float: left;
+    background-color:  #cbbeb0;
+     width: 150px;
+     padding: 20px;
+     border-radius: 20px;
+     height: 370px;
+  }
+.sidebar h2{
+  margin: 0;
+
+}
+
+.sidebar a{
+  display: block;
+  text-decoration: none;
+  text-align: left;
+  color: black;
+  margin: 15px ;
+  padding: 15px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  justify-content: center; 
+}
+
+.productcard {
+  text-align: center;
+  border-radius: 12px;
+  height: 250px;
+  width: 150px;
+  background: #f0f5e9;
+  padding: 20px;
+   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.productcard:hover {
+  transform: scale(1.05);
+}
+
+.productcard img{
+  height: 100px;
+  width: 100x;
+}
+
+.footer {
+  background-color: #9cbe8f;
+  color: #ffffff;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+  margin-bottom: 0;
+}
+ 
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0;
+}
+ 
+.footer-section {
+  margin-bottom: 20px;
+}
+ 
+.footer-title {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+ 
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+ 
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+ 
+.footer-section ul li {
+  margin-bottom: 6px;
+}
+ 
+.footer-section ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+ 
+ 
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 12px;
+  color: #eaf7e2;
+}
+
+

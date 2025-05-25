@@ -1,0 +1,31 @@
+.navbar {
+  background-color: #9bbc88;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 2000px;
+  display: flex;
+}
+
+.logo {
+width: 50px;
+height: 50px;
+margin-left: 75px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 48px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 19px;
+  font-weight: bold;
+  padding-right: 20px;
+}
+
+.navbar img{
+  height:50px;
+  width:50px
+}
